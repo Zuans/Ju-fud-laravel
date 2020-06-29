@@ -1,0 +1,47 @@
+.food {
+    padding: 60px 20px;
+    background-color: #535c68;
+    border-radius: 30px;
+}
+
+.img-0 {
+    width: 20%;
+    height: 20%;
+}
+
+.card-text {
+    font-family: Balsamiq;
+}
+
+hr {
+    border: 1.5px solid rgb(230, 230, 230);
+    text-align: left;
+}
+
+.total-harga {
+    font-size: 2rem;
+}
+
+.btn-close {
+    margin-top: -38px;
+}
+
+@media screen and (max-width: 767px) {
+    img {
+        width: 50%;
+        border-radius: 12px;
+        box-shadow: 3px 3px 10px rgb(53, 53, 53);
+    }
+
+    .card-title {
+        margin-top: 20px;
+    }
+}
+
+@media screen and (min-width: 768px) {
+    img {
+        width: 70%;
+        border-radius: 12px;
+        box-shadow: 3px 3px 10px rgb(53, 53, 53);
+    }
+}

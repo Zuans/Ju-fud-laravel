@@ -1,0 +1,82 @@
+body {
+    line-height: 1.6;
+}
+
+.brand {
+    float: right;
+    margin-right: 15px;
+}
+
+.brand p {
+    margin-top: -20px;
+}
+
+.left {
+    margin-left: 20px;
+}
+
+.title h1 {
+    margin-left: 20px;
+}
+
+.left p {
+    margin-top: -15px;
+}
+
+.left h4 {
+    margin-top: -5px;
+}
+
+table,
+th,
+td {
+    border: 1px solid #ddd;
+    border-collapse: collapse;
+    margin: auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+th:first-child {
+    border: none;
+}
+
+th {
+    background-color: rgb(0, 93, 231);
+    color: #ddd;
+}
+
+td {
+    text-align: center;
+    padding: 10px 0px;
+}
+
+table tr:hover {
+    background-color: #ddd;
+}
+
+table {
+    border-radius: 1em;
+}
+
+.total {
+    float: right;
+    width: 60%;
+}
+.no {
+    padding: 15px 3rem;
+}
+
+.nama {
+    padding: 10px 7rem;
+}
+
+.jumlah {
+    padding: 10px 4rem;
+}
+
+.thanks {
+    margin-top: 4rem;
+    color: black;
+    text-align: center;
+}

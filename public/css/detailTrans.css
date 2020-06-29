@@ -1,0 +1,9 @@
+.card-pesan {
+    border-radius: 10px;
+}
+
+.detail {
+    background-color: grey;
+    border-radius: 4px;
+    padding: 50px 0px;
+}

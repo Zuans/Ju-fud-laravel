@@ -1,0 +1,54 @@
+@media screen and (min-width: 768px) {
+    .cont {
+        width: 100%;
+        min-height: 600px;
+        display: grid;
+        grid-template-columns: 1.5fr 2fr;
+        grid-template-rows: 1fr;
+    }
+
+    .part-1 {
+        grid-column-start: 1 / 2;
+    }
+
+    .part-2 {
+        grid-column-start: 2 / 3;
+        width: 100%;
+        background-image: url(/img/admin.jpg);
+        background-size: 40rem;
+        background-position: 0px 10vh;
+        background-repeat: no-repeat;
+    }
+}
+
+.card-title {
+    font-weight: 500;
+    font-size: 1rem;
+    font-family: Noto;
+}
+
+.card {
+    border-radius: 10px;
+    padding: 25px;
+    height: 70vh;
+    box-sizing: border-box;
+    background: rgb(238, 174, 202);
+    background: radial-gradient(
+        circle,
+        rgba(238, 174, 202, 1) 32%,
+        rgba(148, 187, 233, 1) 86%
+    );
+    box-shadow: 3px 3px 15px rgb(155, 61, 255);
+}
+
+.card img {
+    width: 7rem;
+    height: 7rem;
+    border-radius: 10px;
+    margin: auto;
+}
+
+.btn-act {
+    box-shadow: 2px 2px 10px black;
+    padding-bottom: 10px;
+}

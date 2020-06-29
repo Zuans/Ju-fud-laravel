@@ -1,0 +1,12 @@
+#footer {
+    position: relative;
+    bottom: 0;
+}
+
+.store {
+    border-right: 2px solid #ddd;
+}
+
+.fa-heart {
+    color: rgb(241, 7, 136);
+}

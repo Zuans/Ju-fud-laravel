@@ -1,0 +1,32 @@
+.deskripsi {
+    font-weight: 500;
+    font-size: 1rem;
+}
+
+#jumlah {
+    padding: 5px;
+    border: none;
+    border-radius: 20px;
+}
+
+#jumlah:focus {
+    border-radius: 20px;
+    border: 1px solid rgb(0, 128, 170);
+}
+
+@media screen and (min-width: 768px) {
+    .food-img {
+        border-radius: 10px;
+        width: 15rem;
+        height: 10rem;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    .food-img {
+        border-radius: 10px;
+        margin-left: 10%;
+        width: 15rem;
+        height: 10rem;
+    }
+}

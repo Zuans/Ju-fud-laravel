@@ -1,0 +1,8 @@
+.form-control,
+select {
+    width: 70%;
+}
+
+.alert {
+    width: 70%;
+}

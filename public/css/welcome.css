@@ -1,0 +1,80 @@
+.jumbotron h1 {
+    text-shadow: 2px 2px 10px black;
+    color: white;
+    font-size: 7vw;
+}
+
+.jumbotron p {
+    font-weight: 600;
+    font-size: 3.5vw;
+}
+
+.my-href {
+    color: black;
+}
+
+.my-href:hover {
+    color: white;
+    text-decoration: none;
+}
+
+.benefit-container {
+    border-radius: 15px;
+    box-shadow: 5px 5px 10px rgb(131, 120, 120);
+}
+
+.hr-title {
+    border: 1px solid black;
+    width: 40%;
+}
+
+.img-food {
+    width: 70%;
+    height: 40%;
+    margin: auto;
+    border-radius: 10px;
+    box-shadow: 2px 2px 10px black;
+}
+
+.btn-detail {
+    margin: auto;
+    position: relative;
+    bottom: 3;
+
+    /* MOBILE VIEWS */
+}
+
+.card {
+    border-radius: 15px;
+    background-color: rgb(49, 49, 49);
+    box-shadow: 5px 5px 20px rgb(173, 173, 173);
+    border: none;
+}
+
+@media screen and (max-width: 767px) {
+    .jumbotron {
+        background-image: url(/img/food.jpg);
+        background-size: cover;
+        min-height: 300px;
+    }
+
+    .card {
+        border-radius: 15px;
+        background-color: rgb(49, 49, 49);
+        box-shadow: 5px 5px 20px rgb(173, 173, 173);
+        border: none;
+    }
+}
+
+/*  DESKTOP VIEWS */
+
+@media screen and (min-width: 768px) {
+    .jumbotron {
+        background-image: url(/img/food.jpg);
+        background-size: cover, contain;
+        background-repeat: no-repeat;
+        background-position: 60px, cover;
+        min-height: 500px;
+        background-attachment: fixed;
+    }
+}
